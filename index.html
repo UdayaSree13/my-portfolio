@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Single Page Portfolio</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <div class="name">
+        <h1>Udaya Sree Vankdavath</h1>
+            <div class="contact-info">
+                <span class="contact-item">
+                <img src="https://cdn-icons-png.flaticon.com/512/732/732200.png" alt="Email Icon" width="20">
+                vudayasree00@gmail.com
+                </span>
+                <br>
+                <span class="contact-item">
+                <img src="https://cdn-icons-png.flaticon.com/512/455/455705.png" alt="Phone Icon" width="20">
+                +1 (312) 889-7105
+                </span>
+            </div>
+        </div>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#recommendations">Recommendations</a></li>
+            </ul>
+        </nav>
+        <section id="about" class="about-sec">
+            <img src="passportPic.jpg" alt="Profile Picture" class="profile-img">
+            <div class="about-text">
+                <h2>Udaya Sree Vankdvath</h2>
+                <p>I am a passionate computer science graduate student with hands-on experience in full-stack development and data analytics. I enjoy solving real-world problems with clean, scalable code and am currently looking for exciting opportunities to apply my skills in the tech industry.</p>
+            </div>
+        </section>
+        <section id="skills" class="skills-sec">
+            <h2>My Skills</h2>
+            <div class="skills-grid">
+                <div class="skills-card">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python Logo">
+                    <p>Python</p>
+                </div>
+                <div class="skills-card">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java Logo">
+                    <p>Java</p>
+                </div>
+                <div class="skills-card">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5 Logo">
+                    <p>HTML5</p>
+                </div>
+                <div class="skills-card">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS Logo">
+                    <p>CSS</p>
+                </div>
+                <div class="skills-card">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JS Logo">
+                    <p>Javascript</p>
+                </div>
+                <div class="skills-card">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="SQL Logo">
+                    <p>SQL</p>
+                </div>
+                <div class="skills-card">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" alt="MongoDB Logo">
+                    <p>MongoDB</p>
+                </div>
+            </div>
+        </section>
+        <section id="projects" class="projects-section">
+            <h2>My Projects</h2>
+            <div class="projects-grid">
+              
+                <div class="project-card">
+                    <h3>Smart Homes Web App</h3>
+                    <p>Pioneered the development of a React-based Smart Homes web application, integrating MongoDB and MySQL for 
+                    dynamic order management, boosting transaction processing speed by 35%.</p>
+                    <!--<a href="#">View Project</a>-->
+                </div>
+          
+                <div class="project-card">
+                    <h3>AI Chatbot with Rasa</h3>
+                    <p>Spearheaded the development of an AI-powered conversational assistant using Rasa and Python, orchestrating 
+                        seamless integration with a Flask server and frontend via RESTful APIs, reducing user query response time by 
+                        45%. </p>
+                    <!--<a href="#">View Project</a>-->
+                </div>
+          
+                <div class="project-card">
+                    <h3>Machine Learning Pipeline</h3>
+                    <p>Engineered a scalable machine learning pipeline for imbalanced classification, leveraging modular data 
+                        preprocessing, feature engineering, and hyperparameter optimization, achieving 100% training accuracy and 61% 
+                        testing accuracy. Also, optimized DecisionTreeClassifier performance using RandomizedSearchCV, reducing model training time by 40% 
+                        while maintaining 100% training accuracy. </p>
+                    <!--<a href="#">View Project</a>-->
+                </div> 
+            </div>
+        </section>
+        <section id="recommendations" class="recommendations-section">
+            <h2>Recommendations</h2>
+            <div class="recommendations-grid">
+          
+              <div class="recommendation-card">
+                <p>"Udaya is highly motivated and always delivers on time. Her attention to detail during our full-stack project was outstanding."</p>
+                <h4>— Meera Jain, Software Engineer, Capstone Team</h4>
+              </div>
+          
+              <div class="recommendation-card">
+                <p>"Working with Udaya on the Smart Homes application was a great experience. She’s both creative and technically skilled."</p>
+                <h4>— Arvind Patel, Frontend Developer</h4>
+              </div>
+          
+              <div class="recommendation-card">
+                <p>"Her AI chatbot project showcased not only technical knowledge but also the ability to think from the user’s perspective."</p>
+                <h4>— Dr. Shalini Rao, Assistant Professor, IIT Chicago</h4>
+              </div>
+            </div>
+        </section>
+        <section class="add-recommendation">
+            <h3>Add a Recommendation</h3>
+            <textarea id="recommendationInput" placeholder="Write your recommendation here..."></textarea><br>
+            <input type="text" id="recommenderName" placeholder="Your Name (optional)">
+            <br>
+            <button onclick="addRecommendation()">Submit</button>
+        </section>
+          
+    </body>
+</html>

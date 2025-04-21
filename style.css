@@ -1,0 +1,173 @@
+body{
+    background-color:burlywood
+}
+.name{
+    top: 10px;
+    left: 10px;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: Arial;
+    color: rgb(83, 4, 4);
+}
+
+.contact-info {
+    margin-top: 2px;
+    font-size: 14px;
+    color: #333;
+}
+.contact-item {
+    display: inline-flex;
+    align-items: center;
+}
+.contact-item img {
+    vertical-align: middle;
+}
+
+
+
+.navbar {
+    position: absolute;
+    top: 10px;
+    right: 30px;
+}
+
+.navbar ul{
+    display: flex;
+    list-style-type: none ;
+    margin: 0;
+    padding: 0;
+    gap: 20px;
+    top: 5px;
+    right: 100px;
+    
+}
+.navbar li a{
+    text-decoration: cornsilk;
+    font-size: 18px;
+    color: cornflowerblue;
+    transition: all 0.3s ease;
+    font-family: Arial,sans-serif;
+}
+.navbar li a:hover {
+    font-weight: bold;
+    text-decoration: underline;
+    color: #b30000;
+    cursor: pointer;
+}
+.about-sec{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 20px 30px;
+    background-color: #fffaf0;
+}
+.profile-img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid #b30000;
+}
+.about-text h2{
+    margin: 0;
+    font-size: 28px;
+    color: rgb(158, 22, 22);
+}
+.about-text p{
+    margin-top: 10px;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    max-width: 600px;
+}
+/*Skills*/
+.skills-sec{
+    padding: 30px 30px;
+    background-color: #ede5cf;
+    text-align: center;
+}
+
+.skills-sec h2{
+    font-size: 28px;
+    color: #8b0000;
+    margin-bottom: 30px;
+}
+
+.skills-grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+.skills-card{
+    width: 70px;
+    text-align: center;
+}
+.skils-card img{
+    width: 50px;
+    height: 50px;
+    margin-bottom: 8px;
+}
+.skills-card p{
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+}
+/*Recommendations*/
+.recommendations-section {
+    padding: 50px 30px;
+    background-color: #fff8f0;
+    text-align: center;
+}
+.recommendations-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+.recommendation-card {
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    font-style: italic;
+}
+.recommendation-card h4 {
+    margin-top: 15px;
+    font-size: 14px;
+    color: #444;
+    font-weight: normal;
+}
+.add-recommendation {
+    margin-top: 30px;
+    padding: 30px;
+    text-align: center;
+    background-color: #fff8f0;
+}
+
+.add-recommendation textarea,
+.add-recommendation input {
+    width: 80%;
+    max-width: 500px;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    resize: vertical;
+}
+
+.add-recommendation button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 6px;
+    background-color: #b30000;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.add-recommendation button:hover {
+    background-color: #8b0000;
+}
